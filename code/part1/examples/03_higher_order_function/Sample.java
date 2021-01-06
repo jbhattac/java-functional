@@ -27,7 +27,7 @@ public class Sample {
     Thread th = new Thread(() -> System.out.println("In another thread"));
 
 
-    //Thread is a higher-order function because it receives another
+    //Thread constructor is a higher-order function because it receives another
     //function (anonymous function) as a parameter.
 
     th.start();
